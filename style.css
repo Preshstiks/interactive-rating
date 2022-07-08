@@ -1,0 +1,124 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Overpass', sans-serif;
+}
+body{
+  background-color: hsl(216, 12%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  width: 375px;
+  height: auto;
+  background-color: hsl(213, 14%, 14%);
+  padding: 20px 30px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 10px rgba(0,0,0,0.9);
+}
+.star {
+  background-color: hsl(213, 19%, 18%);
+  padding: 10px;
+  border-radius: 100%;
+  margin-bottom: 15px;
+}
+h1 {
+  color: white;
+  margin-bottom: 15px;
+}
+.rating-request{
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+.rating-btn-group{
+  display: flex;
+  margin-top: 30px;
+  align-items: center;
+  justify-content: space-between;
+}
+.rating-btn{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border-style: none;
+  outline-style: none;
+  color: hsl(217, 12%, 63%);
+  background-color: hsl(213, 19%, 18%);
+  transition: 0.4s ease;
+}
+.rating-btn:hover{
+  color: white;
+  background-color: hsl(25, 97%, 53%);
+}
+.submit-btn{
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+#enter-rating{
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+  border-style: none;
+  outline-style: none;
+  background-color: hsl(25, 97%, 53%);
+  color: white;
+  font-size: 15px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: 0.7s ease;
+}
+#enter-rating:hover{
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+}
+
+.active {
+  background-color: hsl(216, 12%, 54%);
+  color: white;
+}
+.hide{
+  display: none;
+}
+
+.thank-you-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+margin-top: 20px;
+}
+
+.img{
+  width: 150px;
+}
+.text{
+  text-align: center;
+  margin-top: 20px;
+}
+.text div{
+  background-color: hsl(213, 19%, 18%);
+  color: hsl(25, 97%, 53%);
+  margin-left: 62px;
+  margin-right: 62px;
+  padding: 6px;
+  border-radius: 20px;
+}
+.ty{
+  text-align: center;
+  font-size: 28px;
+  margin-top: 20px;
+}
+.ty-para {
+  text-align: center;
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  padding-bottom: 15px;
+  line-height: 1.5;
+}
+
+
